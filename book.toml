@@ -4,5 +4,9 @@ authors = ["The intermezzOS Project Developers"]
 multilingual = false
 src = "src"
 
+[build]
+build-dir = "book"
+create-missing = false
+
 [output.html]
 additional-css = ["src/theme/extra.css"]
